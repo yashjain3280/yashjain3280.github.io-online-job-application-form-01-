@@ -1,0 +1,91 @@
+body {
+  background-image: url('img/background.jpg');
+  background-attachment: fixed;
+  font-family: "Courier New", monospace;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  text-shadow: 0 0 5px blue;
+}
+
+fieldset {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  margin: 15px;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0 0 10px black;
+  border: 3px solid lightblue;
+
+}
+
+fieldset legend {
+  background-image: url('img/background2.jpg');
+  font-family: "Times New Roman", serif;
+  padding: 12px 25px;
+  border: 3px solid lightblue;
+  font-size: 20px;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0 0 10px black;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  font-size: 20px;
+  padding: 5px;
+}
+
+table th {
+  text-align: left;
+}
+
+.button {
+  background-image: url('img/background2.jpg');
+  font-family: "Times New Roman", serif;
+  padding: 14px 26px;
+  font-size: 18px;
+  border: 2px solid white;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0 0 10px black;
+  color: white;
+  width: 150px;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+}
+
+textarea {
+  border-radius: 10px;
+  width: 225px;
+  border: none;
+  outline: none;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="month"],
+select {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 18px;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+input[type="month"]:focus,
+textarea:focus {
+  background-color: #83adcb;
+  box-shadow: 0 0 15px darkblue;
+}
